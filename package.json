@@ -43,10 +43,9 @@
     "start": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --prod",
-    "test": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "test:watch": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ci": "npm run clean && npm run test && npm run build:prod"
+    "build:ci": "npm run clean && npm run build:prod"
   }
 }
