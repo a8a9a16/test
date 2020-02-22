@@ -47,6 +47,6 @@
     "test:watch": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ci": "npm run clean && npm run start:angular"
+    "build:ci": "npm run clean && npm run build"
   }
 }
