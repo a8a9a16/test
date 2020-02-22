@@ -40,12 +40,13 @@
   "scripts": {
     "ng": "ng",
     "clean": "rimraf ./dist",
-    "start": "ng serve",
+    "start:databaseAPI": "node server.js",
+    "start:angular": "ng serve",
     "build": "ng build",
     "build:prod": "ng build --prod",
     "test:watch": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ci": "npm run clean && npm run build:prod"
+    "build:ci": "npm run clean && npm run start:databaseAPI && npm run start:angular"
   }
 }

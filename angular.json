@@ -142,7 +142,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "assignment6"
+    }
+  },
+  "defaultProject": "assignment6",
+  "cli": {
+    "analytics": false
+  }
 }
-
